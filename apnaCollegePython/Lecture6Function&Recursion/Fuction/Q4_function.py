@@ -1,5 +1,5 @@
 
-#q4.
+#q4 waf to convert USD to INR.
 
 def convert(usd_value):
     inr_value = usd_value*83
