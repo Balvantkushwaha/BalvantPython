@@ -2,8 +2,9 @@ class Student:
     def __init__(self,fullname,marks):
         self.name=fullname
         self.marks = marks
-    def welcome (self):
-        print("Welcome student",self.name)
+    @staticmethod
+    def welcome ():
+        print("Welcome student",)
     def get_marks(self):
         return self.marks
 s1 = Student("Balvant",90)
